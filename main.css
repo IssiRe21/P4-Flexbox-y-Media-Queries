@@ -1,0 +1,61 @@
+.contenedor
+{
+    display: flex;
+}
+
+.caja
+{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#caja1
+{
+    background-color: aqua;
+}
+
+#caja2
+{
+    background-color: brown;
+}
+
+#caja3
+{
+    background-color: darkslateblue;
+    
+}
+
+#caja4
+{
+    background-color: dimgray;
+}
+
+@media(max-width:1199px)
+{
+    #caja4
+    {
+        display: none;
+    }
+}
+
+@media(max-width:1023px)
+{
+    #caja3
+    {
+        display: none;
+    }
+}
+
+@media(max-width:767px)
+{
+    #caja2
+    {
+        display: none;
+    }
+}
+
+
+
